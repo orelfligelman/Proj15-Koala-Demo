@@ -1,0 +1,460 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:00:34 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.9ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied" for 127.0.0.1 at 2014-07-10 15:00:53 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"error"=>"access_denied", "error_code"=>"200", "error_description"=>"Permissions error", "error_reason"=>"user_denied"}
+Rendered home/callback.html.erb within layouts/home (2.8ms)
+Completed 500 Internal Server Error in 942ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__422367337330534190_70226261249300'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:02:59 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied" for 127.0.0.1 at 2014-07-10 15:03:05 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"error"=>"access_denied", "error_code"=>"200", "error_description"=>"Permissions error", "error_reason"=>"user_denied"}
+Rendered home/callback.html.erb within layouts/home (0.5ms)
+Completed 500 Internal Server Error in 925ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__422367337330534190_70226261249300'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:03:53 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.3ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:04:00 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQC-60E6z1lFxUdWeICIxSZZLx6lU1uxboVz-JRGSl65RR1fnSRi0Xgp4mBEthAKprPGgaJuIzvCYMPmU3vmEsfsIkFNyCHR9HLDBcerekJVChHOw8ID2DG-LG65lv5S7HHGOVQ_a0DSt22KEyS5EhxwEuZCFg8Gjvd7wsdzfppu33oVd2rdqJgMpxu5vk3NUQpRRaU75ritr-gp7ByBPLEj3aesDD_npADybFlsYETfooNQawzRnPhTzjexaqEfWm2T1BS6Xp2AgIlQMj4jkHcOxbZJxCY9v5y2PW3fuW5LuU1Fv5dp8KiKSH3UMFvr950" for 127.0.0.1 at 2014-07-10 15:04:02 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQC-60E6z1lFxUdWeICIxSZZLx6lU1uxboVz-JRGSl65RR1fnSRi0Xgp4mBEthAKprPGgaJuIzvCYMPmU3vmEsfsIkFNyCHR9HLDBcerekJVChHOw8ID2DG-LG65lv5S7HHGOVQ_a0DSt22KEyS5EhxwEuZCFg8Gjvd7wsdzfppu33oVd2rdqJgMpxu5vk3NUQpRRaU75ritr-gp7ByBPLEj3aesDD_npADybFlsYETfooNQawzRnPhTzjexaqEfWm2T1BS6Xp2AgIlQMj4jkHcOxbZJxCY9v5y2PW3fuW5LuU1Fv5dp8KiKSH3UMFvr950"}
+Rendered home/callback.html.erb within layouts/home (1.3ms)
+Completed 200 OK in 2125ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:06:12 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCvzXFzGkGvAqA2zNcjGohXm_EmfNw_ffuP9QO2HQAJSBdh83Yca1o4W2qlff7bkBJDAIjYXcrb_OvpBdTSLdQWzfXzuv3_JlXPee2YER_GU48hNG3ra_y-qjO9towF_GEQ_2L3kBJ6YfgXLNcMGXBri-EZr3DBHlSZlq1Pknyna8kzOGUyQMArKZMbHZh0SiuB7n2rMfEd-vQjM-2k12T_ONDhvZ2LWX2QhO5-PYbie44YK4u6W_agwy-2hSm0rCDfQogqnRR6xWrD6ByEWGbV1nVF_SIfMC2RjbF2S8jpGwGFm7NsiYpFSIzKHF83AIk" for 127.0.0.1 at 2014-07-10 15:06:25 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCvzXFzGkGvAqA2zNcjGohXm_EmfNw_ffuP9QO2HQAJSBdh83Yca1o4W2qlff7bkBJDAIjYXcrb_OvpBdTSLdQWzfXzuv3_JlXPee2YER_GU48hNG3ra_y-qjO9towF_GEQ_2L3kBJ6YfgXLNcMGXBri-EZr3DBHlSZlq1Pknyna8kzOGUyQMArKZMbHZh0SiuB7n2rMfEd-vQjM-2k12T_ONDhvZ2LWX2QhO5-PYbie44YK4u6W_agwy-2hSm0rCDfQogqnRR6xWrD6ByEWGbV1nVF_SIfMC2RjbF2S8jpGwGFm7NsiYpFSIzKHF83AIk"}
+Rendered home/callback.html.erb within layouts/home (1.1ms)
+Completed 200 OK in 2686ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCvzXFzGkGvAqA2zNcjGohXm_EmfNw_ffuP9QO2HQAJSBdh83Yca1o4W2qlff7bkBJDAIjYXcrb_OvpBdTSLdQWzfXzuv3_JlXPee2YER_GU48hNG3ra_y-qjO9towF_GEQ_2L3kBJ6YfgXLNcMGXBri-EZr3DBHlSZlq1Pknyna8kzOGUyQMArKZMbHZh0SiuB7n2rMfEd-vQjM-2k12T_ONDhvZ2LWX2QhO5-PYbie44YK4u6W_agwy-2hSm0rCDfQogqnRR6xWrD6ByEWGbV1nVF_SIfMC2RjbF2S8jpGwGFm7NsiYpFSIzKHF83AIk" for 127.0.0.1 at 2014-07-10 15:14:42 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCvzXFzGkGvAqA2zNcjGohXm_EmfNw_ffuP9QO2HQAJSBdh83Yca1o4W2qlff7bkBJDAIjYXcrb_OvpBdTSLdQWzfXzuv3_JlXPee2YER_GU48hNG3ra_y-qjO9towF_GEQ_2L3kBJ6YfgXLNcMGXBri-EZr3DBHlSZlq1Pknyna8kzOGUyQMArKZMbHZh0SiuB7n2rMfEd-vQjM-2k12T_ONDhvZ2LWX2QhO5-PYbie44YK4u6W_agwy-2hSm0rCDfQogqnRR6xWrD6ByEWGbV1nVF_SIfMC2RjbF2S8jpGwGFm7NsiYpFSIzKHF83AIk"}
+Completed 500 Internal Server Error in 2040ms
+
+Koala::Facebook::APIError (OAuthException: This authorization code has expired.):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:14:49 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDa-Wt0K57M8yChcLshEQJTRgl5VPscjeWn8VrDvcmSOwdwzw-2od_MFXh8woviWD79iPwxwsM1bPXsh3LpR7xfBI1fQkjQb8GnsZu4yY5wHMDB0dBQtagtLzexqHhjvXWlYFReAW2fRvCITTRfLtiKHV5ajF38CxPmMQKVbGCuNnOlnEY9AwCSV15upSHT0nNZ7XS4o7gOa9a2j7xA6sjM3fgna4dQ__0vPhd-z4QYUzM3p5Z4uT6_1nosP9I2iW-PgHPNeLDJnQ2v5arQe4e-RvmwGWbpZD8VDOZrogyemFUNVLgz7wy_uEoTeZlfOOw" for 127.0.0.1 at 2014-07-10 15:15:04 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDa-Wt0K57M8yChcLshEQJTRgl5VPscjeWn8VrDvcmSOwdwzw-2od_MFXh8woviWD79iPwxwsM1bPXsh3LpR7xfBI1fQkjQb8GnsZu4yY5wHMDB0dBQtagtLzexqHhjvXWlYFReAW2fRvCITTRfLtiKHV5ajF38CxPmMQKVbGCuNnOlnEY9AwCSV15upSHT0nNZ7XS4o7gOa9a2j7xA6sjM3fgna4dQ__0vPhd-z4QYUzM3p5Z4uT6_1nosP9I2iW-PgHPNeLDJnQ2v5arQe4e-RvmwGWbpZD8VDOZrogyemFUNVLgz7wy_uEoTeZlfOOw"}
+Rendered home/callback.html.erb within layouts/home (1.4ms)
+Completed 200 OK in 3725ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQA3SWdi_FlsWEVHs3cAqgBl9ukLMi-OUIktpDZ-C0dQpN1-ASh-ghjDmhXyLEb6DE183aFQQsPtq_2UvXeoRlm0WbqrHVNfNK-hVpT7BMT5GSbdXACe8gBZd14Hafn8IQW3jOFbgjtcJp9mi9zF0w4GUXB490a1VrDsnVR35o95Ev3zU5HaH4yIz22O99yTp4ZzDQ4w_tJz6RF2H-xmmWgMXyKY494wcta2OGScDIbkETvxJw2hmbUxTMF2wOkL0EsbMrve2R4-tq97DlQgurvdds1yKiLAe7eDihr1yBZaZG352RI0le6IScg6OOcUanM" for 127.0.0.1 at 2014-07-10 15:17:47 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA3SWdi_FlsWEVHs3cAqgBl9ukLMi-OUIktpDZ-C0dQpN1-ASh-ghjDmhXyLEb6DE183aFQQsPtq_2UvXeoRlm0WbqrHVNfNK-hVpT7BMT5GSbdXACe8gBZd14Hafn8IQW3jOFbgjtcJp9mi9zF0w4GUXB490a1VrDsnVR35o95Ev3zU5HaH4yIz22O99yTp4ZzDQ4w_tJz6RF2H-xmmWgMXyKY494wcta2OGScDIbkETvxJw2hmbUxTMF2wOkL0EsbMrve2R4-tq97DlQgurvdds1yKiLAe7eDihr1yBZaZG352RI0le6IScg6OOcUanM"}
+Rendered home/callback.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 2208ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDMBP03UJP_tQ1_i3w_XI6TD5wclOZUpUhEIBexbUB9oSp9jOJ_kj8Fxq0P_Uk_FjbLBE-ZwIe5oE3zR3lC4B4IaZoldPEPPlOzGwTzHsfTuLY5euHRhzkxTZFrYvlDD6CfFQubhu0cc_lRlbV7TdpPM8XKWokF2fgLYCF-rvF_ACDjtl-Su2xskFdSaMKsm4SDrU-Yf0nimWBSa3rBrv2qwuFMN0pCM-OGOFAD5_DIq2g9L1CJo-hR3TVVl36UKMwau3fjmT5SmtyDVoYCSitAEiu_VidF7GZSSgMofVICJrBileRC_zsdzROPpjwK2_s" for 127.0.0.1 at 2014-07-10 15:17:52 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDMBP03UJP_tQ1_i3w_XI6TD5wclOZUpUhEIBexbUB9oSp9jOJ_kj8Fxq0P_Uk_FjbLBE-ZwIe5oE3zR3lC4B4IaZoldPEPPlOzGwTzHsfTuLY5euHRhzkxTZFrYvlDD6CfFQubhu0cc_lRlbV7TdpPM8XKWokF2fgLYCF-rvF_ACDjtl-Su2xskFdSaMKsm4SDrU-Yf0nimWBSa3rBrv2qwuFMN0pCM-OGOFAD5_DIq2g9L1CJo-hR3TVVl36UKMwau3fjmT5SmtyDVoYCSitAEiu_VidF7GZSSgMofVICJrBileRC_zsdzROPpjwK2_s"}
+Rendered home/callback.html.erb within layouts/home (1.0ms)
+Completed 200 OK in 1809ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:17:58 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:18:06 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:18:15 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:18:43 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:18:52 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:19:34 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:20:25 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD627yU_SA6lAAifoVKS9AI_u4MRBPtVuiSVDmO2pBMG46xWdz0r_QqkIL15ZjE-KnFLoKy8pLJpPakfxal344h2WkZBVC76or9ehxc_ksUumv5l_wGhAfhA_sQ0pSju0Q3Oi17OJSgwUYfFhd_DN7KAuCrcAK8oyiytVl8pQg6eSuoOHKgcnqq9VYgIww1JIKOBROC6wjX2X01UypC1rWGQaU4Lzayvs9NpRGdzmivlSjQbWnJYY_F916qXSmdiOnxmuN_-FxTQ1LYHEis5ns9TZ09y02zIUI57z9J9aDWEKG2-INoNaSO_gwuwWzVkmw" for 127.0.0.1 at 2014-07-10 15:20:30 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD627yU_SA6lAAifoVKS9AI_u4MRBPtVuiSVDmO2pBMG46xWdz0r_QqkIL15ZjE-KnFLoKy8pLJpPakfxal344h2WkZBVC76or9ehxc_ksUumv5l_wGhAfhA_sQ0pSju0Q3Oi17OJSgwUYfFhd_DN7KAuCrcAK8oyiytVl8pQg6eSuoOHKgcnqq9VYgIww1JIKOBROC6wjX2X01UypC1rWGQaU4Lzayvs9NpRGdzmivlSjQbWnJYY_F916qXSmdiOnxmuN_-FxTQ1LYHEis5ns9TZ09y02zIUI57z9J9aDWEKG2-INoNaSO_gwuwWzVkmw"}
+Rendered home/callback.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 2273ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:19 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:20 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:21 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:22 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:22 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:22 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:50 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:50 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:50 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:50 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:50 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:51 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:52 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:24:54 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:25:39 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:26:19 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDFgfVxPt7-f9i7PniSnIJJ5TNmftwNffUtuNgO4ns5KQqvBfzPgJcnMXo814NJcWJjqRNxDTTzvFQROdGObnltCqZuvS_CucipRMfuW8daksiE-_Xj183PylrZPCMD7XYF2wNOqZiIu16medZ7UOx2hdJucg12LlDhlAERXW1EyUEMEhlOh7XTzmlKg7dmaIL-vTUAlcUP24949dbzY0VvNMmPLd9CCH490xQqG72vkTukOMbjKjIFQA2SggBQuw9ekHUWu1JxdcRvjsIZ-CGEHNsnoPIXuw3KpWBEUV57ZiRY7pe85h5hu8gBcYQQjWQ" for 127.0.0.1 at 2014-07-10 15:26:38 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDFgfVxPt7-f9i7PniSnIJJ5TNmftwNffUtuNgO4ns5KQqvBfzPgJcnMXo814NJcWJjqRNxDTTzvFQROdGObnltCqZuvS_CucipRMfuW8daksiE-_Xj183PylrZPCMD7XYF2wNOqZiIu16medZ7UOx2hdJucg12LlDhlAERXW1EyUEMEhlOh7XTzmlKg7dmaIL-vTUAlcUP24949dbzY0VvNMmPLd9CCH490xQqG72vkTukOMbjKjIFQA2SggBQuw9ekHUWu1JxdcRvjsIZ-CGEHNsnoPIXuw3KpWBEUV57ZiRY7pe85h5hu8gBcYQQjWQ"}
+Rendered home/callback.html.erb within layouts/home (1.1ms)
+Completed 200 OK in 5510ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:27:52 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:28:31 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.6ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:28:32 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:28:32 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:28:32 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:28:35 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD7gWRzPc-msH60inCK3GZMzx422fbcYoB7CirteVU3fj3ZBK208BgqnDtEf0OZmZACdiTtP3BxZxaM9QQC4ooVm-aC_xDH2k_WmOhri9GNblIkTsNAhqoBkd4ubBmGGZp1_OaoeXY9u1H-c8qUOQ7qd15Sc_g9a3JHM5m-XLP4Ht4XrqGsyI4_0Hk7PjYWXjrfYRMGWVsMteCfT-pVXWGnD4FRhdyI-PNJ6FAve3uLvtpT-g3wUmzErOAX5naZg35X7r2bzVQxkItSLCjz0cOqn87-VuRPKsrbfZ0TlGVHBpRcRNlE6ifd8rXFmAlmFEU" for 127.0.0.1 at 2014-07-10 15:28:38 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD7gWRzPc-msH60inCK3GZMzx422fbcYoB7CirteVU3fj3ZBK208BgqnDtEf0OZmZACdiTtP3BxZxaM9QQC4ooVm-aC_xDH2k_WmOhri9GNblIkTsNAhqoBkd4ubBmGGZp1_OaoeXY9u1H-c8qUOQ7qd15Sc_g9a3JHM5m-XLP4Ht4XrqGsyI4_0Hk7PjYWXjrfYRMGWVsMteCfT-pVXWGnD4FRhdyI-PNJ6FAve3uLvtpT-g3wUmzErOAX5naZg35X7r2bzVQxkItSLCjz0cOqn87-VuRPKsrbfZ0TlGVHBpRcRNlE6ifd8rXFmAlmFEU"}
+Rendered home/callback.html.erb within layouts/home (1.4ms)
+Completed 200 OK in 4247ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-10 15:31:55 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.4ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBZX49R4hI6i9zbrnxubkc2uho2qT_RhbMHdZU9a2m13ldAM-Rs8EA-whWfeQuFsM3q1NXSKReL9oF8Euw_E_248vK56BJ1YjDHqMAz_UEbGjx-V73uKuHU6z_J7tIUX3ywDsfkkjsF2vlUCkiYK0IUeNg3xpzN48NurWL8HZZv6BHhXdBfiey3y2iTlsUdOZOM0oe_Rdv03cyk0SfPBUeSLL7Co5ROHYn20yW-en-T3fwQp_8dsMdJztm06k53NgxPRIuF3dT_7YsD4q6Lm1wL-HUgwSy8cZNNfzAwK3Y3ZvJahJ0dcyIxOVtXrCGXTUg" for 127.0.0.1 at 2014-07-10 15:31:59 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBZX49R4hI6i9zbrnxubkc2uho2qT_RhbMHdZU9a2m13ldAM-Rs8EA-whWfeQuFsM3q1NXSKReL9oF8Euw_E_248vK56BJ1YjDHqMAz_UEbGjx-V73uKuHU6z_J7tIUX3ywDsfkkjsF2vlUCkiYK0IUeNg3xpzN48NurWL8HZZv6BHhXdBfiey3y2iTlsUdOZOM0oe_Rdv03cyk0SfPBUeSLL7Co5ROHYn20yW-en-T3fwQp_8dsMdJztm06k53NgxPRIuF3dT_7YsD4q6Lm1wL-HUgwSy8cZNNfzAwK3Y3ZvJahJ0dcyIxOVtXrCGXTUg"}
+Rendered home/callback.html.erb within layouts/home (1.5ms)
+Completed 200 OK in 3588ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-29 20:02:31 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.8ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCmXRra8Vjb7BxDWu3qlyVBGUwUlCtw0onbgmZyqV1kZ1KfOmfsBI9SB55iyhTo5rOUnyPof2xSGdYZD47Sp0OYmCOPukoPNEujt39JC_seZcIPk3WNadno8nHat64AS3alFYlwYTRQ0yevfSYem6dcJV_w-uWW9SZGs-UzZCHkIDR4ItchZIuWBOsqxCZz5f9Cri3fV3FSVr3bjT742NYreKmFY0rXe6RCITjfx94z6y9Hd82riYyffLF8spHa_s9x4BfkVxOPQallTiGLwBRnYS1bwAs37Omv8-aUQTxhaTBKNJvzxLlSK14LTj7XFbA" for 127.0.0.1 at 2014-07-29 20:02:49 -0400
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCmXRra8Vjb7BxDWu3qlyVBGUwUlCtw0onbgmZyqV1kZ1KfOmfsBI9SB55iyhTo5rOUnyPof2xSGdYZD47Sp0OYmCOPukoPNEujt39JC_seZcIPk3WNadno8nHat64AS3alFYlwYTRQ0yevfSYem6dcJV_w-uWW9SZGs-UzZCHkIDR4ItchZIuWBOsqxCZz5f9Cri3fV3FSVr3bjT742NYreKmFY0rXe6RCITjfx94z6y9Hd82riYyffLF8spHa_s9x4BfkVxOPQallTiGLwBRnYS1bwAs37Omv8-aUQTxhaTBKNJvzxLlSK14LTj7XFbA"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 446ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCmXRra8Vjb7BxDWu3qlyVBGUwUlCtw0onbgmZyqV1kZ1KfOmfsBI9SB55iyhTo5rOUnyPof2xSGdYZD47Sp0OYmCOPukoPNEujt39JC_seZcIPk3WNadno8nHat64AS3alFYlwYTRQ0yevfSYem6dcJV_w-uWW9SZGs-UzZCHkIDR4ItchZIuWBOsqxCZz5f9Cri3fV3FSVr3bjT742NYreKmFY0rXe6RCITjfx94z6y9Hd82riYyffLF8spHa_s9x4BfkVxOPQallTiGLwBRnYS1bwAs37Omv8-aUQTxhaTBKNJvzxLlSK14LTj7XFbA" for 127.0.0.1 at 2014-07-29 20:02:57 -0400
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCmXRra8Vjb7BxDWu3qlyVBGUwUlCtw0onbgmZyqV1kZ1KfOmfsBI9SB55iyhTo5rOUnyPof2xSGdYZD47Sp0OYmCOPukoPNEujt39JC_seZcIPk3WNadno8nHat64AS3alFYlwYTRQ0yevfSYem6dcJV_w-uWW9SZGs-UzZCHkIDR4ItchZIuWBOsqxCZz5f9Cri3fV3FSVr3bjT742NYreKmFY0rXe6RCITjfx94z6y9Hd82riYyffLF8spHa_s9x4BfkVxOPQallTiGLwBRnYS1bwAs37Omv8-aUQTxhaTBKNJvzxLlSK14LTj7XFbA"}
+Completed 500 Internal Server Error in 95ms
+
+Koala::Facebook::APIError (OAuthException: This authorization code has been used.):
+  app/controllers/home_controller.rb:17:in `callback'
+
+Rendered /Users/oren/.rvm/gems/ruby-2.1.2/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/oren/.rvm/gems/ruby-2.1.2/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/oren/.rvm/gems/ruby-2.1.2/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-07-29 20:03:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+
+Rendered /Users/oren/.rvm/gems/ruby-2.1.2/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-29 20:03:09 -0400
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDSmI7NABcL9wQlTPWf6nXT4nwlQsM8moz-_7FD3cDDRg45bDIiGbY3emArBpY0MceFnWi5YDEBWMV_ytfHOjUYJadTYha_aOwQKCn7UcuP46CfaQGk2NgCGp2wDMRKHHiquZOiu_w4gs9jOYJJ3xloLDfZxkK3BhmDZORmGse_Zw1TI8ecyZlDhTP572XfkSQ5HOs_WUWudiJTbYv_7cE4r-qjOFPftOqau2UjQLKWn3PQvvkUo-X8Vodt5QnH4OIj11z_qLzlfan30gbhgefJdw0SNfAUTWrbD9PRklu-Qwvivoxha4NozJ2ywtR7opw" for 127.0.0.1 at 2014-07-29 20:03:10 -0400
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDSmI7NABcL9wQlTPWf6nXT4nwlQsM8moz-_7FD3cDDRg45bDIiGbY3emArBpY0MceFnWi5YDEBWMV_ytfHOjUYJadTYha_aOwQKCn7UcuP46CfaQGk2NgCGp2wDMRKHHiquZOiu_w4gs9jOYJJ3xloLDfZxkK3BhmDZORmGse_Zw1TI8ecyZlDhTP572XfkSQ5HOs_WUWudiJTbYv_7cE4r-qjOFPftOqau2UjQLKWn3PQvvkUo-X8Vodt5QnH4OIj11z_qLzlfan30gbhgefJdw0SNfAUTWrbD9PRklu-Qwvivoxha4NozJ2ywtR7opw"}
+Rendered home/callback.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 694ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-12 14:52:09 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.8ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCEviqQxFXJ9Hqwcq-5xQCG9teX3ATB-yBhjAvShOtEIiKU56EKF5fz-MfjNjHjlgtgIL55AVuJF46RJUOI5htvaEIe2_-gy-1aa2jVHNjqeUcAlMtawbsm17mNN-G9Ikv6iku03k0ir9ln71wubqR3BNrxqulVY-ERlOWDXWQmavh_PZHnvt_ZGruNPlapgdIOjT--pF17rD5FDg0xWvdu7i1bvwDo2w-R0vDCSXYCjJS-e8rYXyNrwmdhieLPGKKDH0LEnwjn4dAe4p4Asd9ZMQKpLjY7A9CYt3hiikUsSJweUnExS-VvHSO__MYn-LW-IsS7VZpK6tXUZS8UXIEZ" for 127.0.0.1 at 2014-08-12 14:52:34 +0530
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCEviqQxFXJ9Hqwcq-5xQCG9teX3ATB-yBhjAvShOtEIiKU56EKF5fz-MfjNjHjlgtgIL55AVuJF46RJUOI5htvaEIe2_-gy-1aa2jVHNjqeUcAlMtawbsm17mNN-G9Ikv6iku03k0ir9ln71wubqR3BNrxqulVY-ERlOWDXWQmavh_PZHnvt_ZGruNPlapgdIOjT--pF17rD5FDg0xWvdu7i1bvwDo2w-R0vDCSXYCjJS-e8rYXyNrwmdhieLPGKKDH0LEnwjn4dAe4p4Asd9ZMQKpLjY7A9CYt3hiikUsSJweUnExS-VvHSO__MYn-LW-IsS7VZpK6tXUZS8UXIEZ"}
+Rendered home/callback.html.erb within layouts/home (1.5ms)
+Completed 200 OK in 2525ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-12 14:54:07 +0530
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-12 12:54:58 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.9ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQASKAbBtC58QEKxN_CtardEeJwJ6FWFRRQSww5BQ5mZFFuU8Nb2QyLkW6FqGyacwizyi4dpru0ODiaZ9OVMExYDNgvCWxJnn8UxXMknTgXmnMwgwUfIgHyrZiq46hril5Lb6giuQ9sks5H2RvV8eLBntOd5L-1Xqhj4xdVxp8yOqbayuUdI1nRHjtKatSbNYZfwXojkyy-YXQIPigYAeG0Zbk5oRvxnBpEmyM-0mUta24j4PHH_ZNPocBeK6SZQ3Zc4Ye39wN1-eGzhDZ0iUMlMqbdMJuG464Dw0qKa63LmdCv_bYM28SDMOIf9XAo9U7k" for 127.0.0.1 at 2014-12-12 12:55:02 -0500
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQASKAbBtC58QEKxN_CtardEeJwJ6FWFRRQSww5BQ5mZFFuU8Nb2QyLkW6FqGyacwizyi4dpru0ODiaZ9OVMExYDNgvCWxJnn8UxXMknTgXmnMwgwUfIgHyrZiq46hril5Lb6giuQ9sks5H2RvV8eLBntOd5L-1Xqhj4xdVxp8yOqbayuUdI1nRHjtKatSbNYZfwXojkyy-YXQIPigYAeG0Zbk5oRvxnBpEmyM-0mUta24j4PHH_ZNPocBeK6SZQ3Zc4Ye39wN1-eGzhDZ0iUMlMqbdMJuG464Dw0qKa63LmdCv_bYM28SDMOIf9XAo9U7k"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 766ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-12 13:15:07 -0500
+
+ArgumentError (A secret is required to generate an integrity hash for cookie session data. Use config.secret_token = "some secret phrase of at least 30 characters"in config/initializers/secret_token.rb):
+  
+
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-12 13:15:21 -0500
+
+ArgumentError (A secret is required to generate an integrity hash for cookie session data. Use config.secret_token = "some secret phrase of at least 30 characters"in config/initializers/secret_token.rb):
+  
+
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-12 13:15:25 -0500
+
+ArgumentError (A secret is required to generate an integrity hash for cookie session data. Use config.secret_token = "some secret phrase of at least 30 characters"in config/initializers/secret_token.rb):
+  
+
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-12 13:15:40 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (1.7ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBNCUNTrUoZfvl_WhAe83qbELM8NQW08DzqKKN880g0SHchrxCc9eobqMysZqbVKyI6mPKDwcKJesiRMObYx3eiY5p9aC5JT9P007kdB6LH_aibqqHwkA9mv41fBPFJxocn2ATx-0cUGVoAPlp65hqVIKe0JLlBCpRLj07Qwf8kZN07e0DF5e9pCeBzJ2hm7dRT6hOIZN60DBd35-eFKe5LKUrdEx62lJgCz2UzvppUO5CtYG6RGovLsDrlH4wFcDXsoSAHj7-1hrXJMuWW0Gu21grVhNRvgaEhfW8HOVgGG43iPpc0XA4dWgkqPpJum-U" for 127.0.0.1 at 2014-12-12 13:15:43 -0500
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBNCUNTrUoZfvl_WhAe83qbELM8NQW08DzqKKN880g0SHchrxCc9eobqMysZqbVKyI6mPKDwcKJesiRMObYx3eiY5p9aC5JT9P007kdB6LH_aibqqHwkA9mv41fBPFJxocn2ATx-0cUGVoAPlp65hqVIKe0JLlBCpRLj07Qwf8kZN07e0DF5e9pCeBzJ2hm7dRT6hOIZN60DBd35-eFKe5LKUrdEx62lJgCz2UzvppUO5CtYG6RGovLsDrlH4wFcDXsoSAHj7-1hrXJMuWW0Gu21grVhNRvgaEhfW8HOVgGG43iPpc0XA4dWgkqPpJum-U"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 611ms (Views: 10.6ms | ActiveRecord: 0.0ms)
